@@ -1,0 +1,19 @@
+.d-flex{
+    display:flex;
+}
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.w-100{
+    width:100%;
+}
+.h-100{
+    height: 100vh;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-self-center{
+    align-self: center;
+}

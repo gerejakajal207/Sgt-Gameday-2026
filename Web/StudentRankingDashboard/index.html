@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Ranking Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utilities.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container d-flex-col">
+      <h1 class="align-self-center">Student Ranking System</h1>
+      <!-- Filter and Sort -->
+      <div class="d-flex-col buttons-container">
+        <!--Add student  -->
+        <div id="add-student">
+          <input type="text" id="name-input" placeholder="Enter name" />
+          <input type="text" id="score-input" placeholder="Enter score" />
+          <button id="add-student-btn">Add Student</button>
+        </div>
+        <!-- Search bar -->
+        <input type="text" id="input-bar" placeholder="Search student" />
+        <!-- Button to sort -->
+        <button id="sort-btn">Sort the students</button>
+      </div>
+
+      <!--Table to store list of students and scores  -->
+      <table id="student-table">
+        <thead>
+          <tr>
+            <th class="heading">Name</th>
+            <th class="heading">Score</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>

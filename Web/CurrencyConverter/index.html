@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utilities.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <!-- Main Container to hold everything -->
+    <div class="h-100 w-100 d-flex justify-content-center">
+
+      <div id="main-container" class="d-flex-col align-self-center">
+
+        <!-- Heading -->
+        <p id="heading" class="align-self-center">Currency Converter</p>
+
+        <!-- Countries -->
+        <div class="d-flex" id="countries">
+
+          <!-- Country 1 -->
+          <div id="currency-one-container" class="d-flex">
+            <input type="number" id="input-one" class="input-boxes" placeholder="From" />
+            <select name="currency-one" id="currency-one"></select>
+          </div>
+
+          <!-- Country 2 -->
+          <div id="currency-two-container" class="d-flex">
+            <input type="number" id="input-two" class="input-boxes" placeholder="To" />
+            <select name="currency-one" id="currency-two"> </select>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </body>
+</html>

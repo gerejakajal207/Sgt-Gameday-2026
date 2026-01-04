@@ -1,0 +1,63 @@
+body {
+  box-sizing: border-box;
+  background-color: beige;
+}
+#student-table {
+  border: 2px solid black;
+  width: 50%;
+  align-self: center;
+}
+th,
+td {
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.heading {
+  background-color: rgb(205, 200, 133);
+}
+.container {
+  gap: 15px;
+}
+.buttons-container {
+  gap: 8px;
+  align-self: center;
+}
+
+#input-bar {
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid black;
+  padding: 5px;
+  width: 30%;
+  align-self: center;
+}
+#name-input,
+#score-input {
+  border-radius: 5px;
+  outline: 0;
+  width: 30%;
+  border: 1px solid black;
+}
+#add-student {
+  gap: 8px;
+  display: flex;
+}
+#sort-btn,
+#add-student-btn {
+  border-radius: 6px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 5px;
+  width: 30%;
+  align-self: center;
+  box-shadow: 1px 1px 1px 1px rgb(205, 204, 204);
+}
+button:hover{
+    scale: 0.8;
+}
+input:focus,input:hover{
+    background-color: rgb(219, 216, 216);
+}
